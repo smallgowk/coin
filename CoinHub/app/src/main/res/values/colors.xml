@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorAcent">#6c7b8a</color>
+    <color name="colorPrimary">#00918e</color>
+    <color name="colorPrimaryDark">#00918e</color>
+
+	<color name="colorAcent1">#6c7b8a</color>
+	<color name="colorPrimary1">#6c7b8a</color>
+	<color name="colorPrimaryDark1">#6c7b8a</color>
+
+	<color name="main_green">#00918e</color>
+
+    <color name="secondaryColor">#6c7b8a</color>
+
+    <color name="menuIconColor">#4b676f</color>
+
+    <color name="yellow">#ff0</color>
+    <color name="green">#4d762a</color>
+    <color name="color8">#cc0000</color>
+	<color name="red">#cc0000</color>
+	<color name="listBackground">#ffebee</color>
+	<color name="colorSwitchActive">#049db1</color>
+
+    <color name="black">#000000</color>
+    <color name="black12">#1F000000</color>
+    <color name="black38">#61000000</color>
+    <color name="black54">#8A000000</color>
+    <color name="black70">#B3000000</color>
+    <color name="black87">#DE000000</color>
+	<color name="white">#FFFFFFFF</color>
+	<color name="white70">#B3FFFFFF</color>
+	<color name="white87">#DEFFFFFF</color>
+	<color name="white54">#8AFFFFFF</color>
+	<color name="white12">#1FFFFFFF</color>
+	<color name="white15">#26FFFFFF</color>
+
+	<color name="pink">#ff9fc0</color>
+
+	<color name="grayItem">#6c7b8a</color>
+
+    <color name="gray">#ff808285</color>
+    <color name="gray_less">#ffd1d3d4</color>
+
+    <color name="secondary">#6c7b8a</color>
+    <color name="blue">#448aff</color>
+    <color name="blue_press">#99daf2</color>
+
+    <color name="orange">#FFed821a</color>
+    <color name="orange15">#26ed821a</color>
+    <color name="orange87">#DEed821a</color>
+    <color name="orange54">#8Aed821a</color>
+
+    <color name="blue_sign_in">#295fa0</color>
+    <color name="color_bg_circle">#313131</color>
+    <color name="color_text_header_structure">#135f82</color>
+    <color name="color_text_left_menu_item">#ffd9eaf4</color>
+    <color name="transparent">#00000000</color>
+    <color name="main">#eaeaea</color>
+
+	<color name="color_background_menu_bottom_normal">#eaeaea</color>
+	<color name="color_background_menu_bottom_pressed">#ffffff</color>
+	<color name="main_color">#50c1e9</color>
+	<!-- <color name="main_color">#ffd62a3a</color> -->
+	<color name="mtracking_header_color">#ff333333</color>
+	<color name="main_gray">#777777</color>
+
+	<color name="main_gray_less">#bdc8ca</color>
+	<color name="main_blue">#1da1f3</color>
+	<color name="main_tittle">#82d4e0</color>
+	<color name="color_row_press">#f0f0f0</color>
+	<color name="color_pess_transparent">#22000000</color>
+
+	<color name="greenText">#ff4d762a</color>
+
+	<color name="color_accept">#1da1f3</color>
+	
+	<color name="color_road">#ff0000ff</color>
+	<!-- <color name="main_color">#0c3c52</color> -->
+	
+	<color name="bg_header_section">#d8dde6</color>
+	
+	<color name="row_color">#eaeaea</color>
+	<!-- <color name="color_state_off">#69af11</color> -->
+	<!-- <color name="color_state_run">#06716D</color> -->
+	<color name="color_state_run">#69af11</color>
+	<!-- <color name="color_state_stop">#cb9b1b</color> -->
+	<color name="color_state_stop">#06716D</color>
+	<color name="color_state_off">#cb9b1b</color>
+	<color name="color_gps_lost">#DD7009</color>
+	<color name="color_gprs_lost">#A90F09</color>
+	<color name="color_hibernate">#575757</color>
+	<color name="color_no_info">#A90F09</color>
+	
+	<color name="color_btn_call_normal">#135f82</color>
+    <color name="color_btn_call_press">#063a52</color>
+    <color name="color_press_green">#a4ff21</color>
+    <color name="color_normal_light">#979797</color>
+    
+    <color name="color_btn_add_normal">#eb5629</color>
+    <color name="color_btn_add_press">#b03712</color>
+    
+    <color name="color_background_menu_slide">#1b242b</color>
+	<color name="color_background_menu_item_normal">#1b242b</color>
+	<color name="color_background_menu_item_pressed">#0f181d</color>
+
+	<color name="main_bg">#303030</color>
+	<color name="orange_normal">#fba828</color>
+	<color name="orange_light">#fee4c3</color>
+
+
+</resources>

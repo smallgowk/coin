@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="APP_NAME">CryptoHub</string>
+    <string name="APP_LAUNCHER">CryptoHub</string>
+    <!--<string name="facebook_app_id">1247708058578458</string>-->
+    <string name="facebook_app_id">209476682797236</string>
+
+    <string name="roles">Shops,Users</string>
+    <string name="cityDefault">Hà Nội</string>
+    <string name="districtDefault">Ba Đình</string>
+
+    <string name="TEXT_LOADING">Đang tải...</string>
+    <string name="text_no_network">Lỗi kêt nối! Vui lòng kiểm tra lại đường truyền và thử lại!</string>
+    <string name="text_request_error">Lỗi kêt nối! Vui lòng kiểm tra lại đường truyền và thử lại!</string>
+    <string name="textInboxEmpty">Không tìm thấy thông báo nào!</string>
+    <string name="textBefore">trước</string>
+    <string name="textHour">giờ</string>
+    <string name="textMinute">phút</string>
+    <string name="textSecond">giây</string>
+    <string name="textDay">ngày</string>
+    <string name="textMonth">tháng</string>
+
+    <string name="close_button">Đóng</string>
+
+    <string name="txtConpyRight">© 2017 - iMesh</string>
+    <string name="txtPleaseWait">Vui lòng chờ...</string>
+    <string name="alertEmptyAccount">Vui lòng nhập tài khoản!</string>
+    <string name="alertEmptyPassword">Vui lòng nhập mật khẩu!</string>
+    <string name="alertEmptyConfirmPassword">Vui lòng xác nhận mật khẩu!</string>
+    <string name="alertPasswordNotMatch">Mật khẩu và xác nhận mật khẩu không khớp!</string>
+    <string name="alertInvalidPassword">Mật khẩu không hợp lệ!</string>
+    <string name="alertEmptyPhone">Vui lòng nhập số điện thoại!</string>
+    <string name="alertAcctionUnsucess">Thao tác không thành công! Vui lòng thử lại</string>
+    <string name="alertInvalidAccount">Tài khoản không hợp lệ!</string>
+    <string name="alertGPSOff">Không thể xác định vị trí của bạn. Vui lòng bật dịch vụ địa điểm!</string>
+    <string name="alertActionFail">Thao tác không thành công! Vui lòng thử lại</string>
+    <string name="alertNoOrderFound">Không tìm thấy đơn hàng nào!</string>
+    <string name="alertNoStudentFound">Không tìm thấy sinh viên nào!</string>
+
+    <string name="alertNoCustomerFound">Không có khách hàng nào!</string>
+    <string name="alertNoConferenceFound">Không có hội nghị nào!</string>
+    <string name="alertNoColleagueFound">Không có đồng nghiệp nào!</string>
+
+    <string name="alertEmptyCompanyPhone">Vui lòng nhập tài số công ty!</string>
+    <string name="alertEmptyPrivatePhone">Vui lòng nhập tài số máy lẻ!</string>
+
+    <string name="alertEmptyCustomerName">Vui lòng nhập tên khách hàng!</string>
+    <string name="alertEmptyExtPhone">Vui lòng nhập số máy lẻ!</string>
+    <string name="alertEmptyCustomerCompanyName">Vui lòng nhập tên công ty!</string>
+    <string name="alertEmptyPosition">Vui lòng nhập chức vụ!</string>
+    <string name="alertEmptyPhoneNumber">Vui lòng nhập số điện thoại!</string>
+    <string name="alertEmptyPhoneNumber2">Vui lòng nhập số điện thoại 2!</string>
+    <string name="alertEmptyPhoneNumber3">Vui lòng nhập số điện thoại 3!</string>
+    <string name="alertEmptyEmail">Vui lòng nhập email!</string>
+    <string name="alertCreateCustomerSuccess">Thêm khách hàng thành công!</string>
+    <string name="alertEditCustomerSuccess">Sửa thông tin khách hàng thành công!</string>
+
+    <string name="alertCreateColleageGroupSuccess">Tạo nhóm đồng nghiệp thành công!</string>
+    <string name="alertEditColleagueGroupSuccess">Sửa thông tin nhóm thành công!</string>
+    <string name="alertDeleteColleagueGroupSuccess">Xoá nhóm thành công!</string>
+
+    <string name="alertCreateConferenceSuccess">Tạo hội nghị thành công!</string>
+    <string name="alertAddMemberSuccess">Thêm thành công!</string>
+
+    <string name="alertNoData">Không có dữ liệu!</string>
+    <string name="alertConnectFail">Lỗi kết nối!</string>
+
+    <!-- Labels-->
+    <string name="labelDasboard">Dashboard</string>
+    <string name="labelNotify">Notification</string>
+    <string name="labelUpdate">UPDATE</string>
+    <string name="labelChangePassword">CHANGE PASSWORD</string>
+    <string name="labelConfirm">CONFIRM</string>
+    <string name="labelConfirmLower">Xác nhận</string>
+    <string name="labelCancel">Hủy</string>
+    <string name="labelRetry">Retry</string>
+    <string name="labelDelete">Delete</string>
+    <string name="labelAccept">Đồng ý</string>
+    <string name="lblClickViewDetail">Click to view detail</string>
+    <string name="lblHintSearch">Type your search key</string>
+    <string name="labelClose">Close</string>
+    <string name="labelYes">Yes</string>
+    <string name="labelNo">No</string>
+    <string name="labelNotification">Notification</string>
+    <string name="pick_image_intent_text">Select from</string>
+
+    <string name="labelSetting">Thiết lập</string>
+    <string name="labelNews">Tin tức</string>
+    <string name="labelGuide">Hướng dẫn sử dụng</string>
+    <string name="labelQA">Câu hỏi thường gặp</string>
+    <string name="labelPolicy">Điều khoản &amp; chính sách</string>
+    <string name="labelFeedback">Gửi phản hồi</string>
+    <string name="labelDisconnect">Ngắt kết nối với thiết bị</string>
+
+    <string name="labelMainHome">Coin Hub</string>
+    <string name="labelPortFolio">Portfolio</string>
+    <string name="labelCoinMarketCap">CoinmarketCap</string>
+    <string name="labelCoinEvent">Events</string>
+    <string name="labelIcos">ICOs</string>
+    <string name="labelAbout">About</string>
+    <string name="labelCustomer">Danh sách khách hàng</string>
+    <string name="labelContact">Danh bạ điện thoại</string>
+    <string name="labelKeyboard">Bàn phím</string>
+    <string name="labelConferencCall">Thoại hội nghị</string>
+    <string name="labelConferencList">Danh sách thoại hội nghị</string>
+    <string name="labelVersionInfo">Thông tin phiên bản</string>
+    <string name="labelServiceInfo">Giới thiệu dịch vụ</string>
+
+    <string name="labelCreateColleagueGroup">Sửa / Tạo nhóm</string>
+    <string name="labelCreateCustomer">Nhập thông tin khách hàng</string>
+    <string name="labelEditCustomer">Sửa thông tin khách hàng</string>
+
+    <string name="labelColleagueChoseGroup">Chọn nhóm</string>
+    <string formatted="false" name="labelColleagueChoseMember">Tạo nhóm (%s/%s)</string>
+    <string formatted="false" name="labelColleagueChoseEditMember">Sửa nhóm (%s/%s)</string>
+    <string formatted="false" name="labelPickedList">Danh sách đã chọn (%s/%s)</string>
+
+    <string name="hintCustomerName">Tên khách hàng</string>
+    <string name="hintCustomerExtPhone">Số máy lẻ</string>
+    <string name="hintCustomerCompany">Công ty</string>
+    <string name="hintCustomerPosition">Chức vụ</string>
+    <string name="hintCustomerPhonenumber">Số điện thoại</string>
+    <string name="hintCustomerPhonenumber2">Số điện thoại 2</string>
+    <string name="hintCustomerPhonenumber3">Số điện thoại 3</string>
+    <string name="hintCustomerEmail">Email</string>
+
+    <string name="labelDepartment">Tên bộ phận</string>
+
+    <string name="labelCompany">Công ty</string>
+    <string name="labelPosition">Chức vụ</string>
+    <string name="labelPrivatePhone">Số máy lẻ</string>
+    <string name="labelMainPhone">Số thường dùng</string>
+    <string name="labelPrivatePhone2">Số điện thoại 2</string>
+    <string name="labelPrivatePhone3">Số điện thoại 3</string>
+    <string name="labelEmail">Email</string>
+
+    <!-- Login Screen Strings-->
+    <string name="edtAccountHint">Tài khoản</string>
+    <string name="edtPasswordHint">Mật khẩu</string>
+    <string name="btnLogin">ĐĂNG NHẬP</string>
+    <string name="btnLogout">Đăng xuất</string>
+    <string name="txtSignUpNewAccount">Đăng ký tài khoản</string>
+    <string name="txtForgetPassword">Quên mật khẩu</string>
+    <string name="alertLoginFail">Đăng nhập không thành công!</string>
+    <string name="alertLogoutFail">Đăng xuất không thành công!</string>
+
+    <!-- messages-->
+    <string name="msgExitApp">Nhấn back lần nữa để thoát ứng dụng!</string>
+    <string name="msgLogoutApp">Bạn muốn đăng xuất khỏi tài khoản hiện tại?</string>
+
+    <!-- Sign Up Screen Strings-->
+    <string name="txtSignUpHeader">Đăng ký tài khoản</string>
+    <string name="edtSignUpAccountLabelText">Tài khoản</string>
+    <string name="edtSignUpAccountHint">Nhập tài khoản</string>
+    <string name="edtSignUpEmailLabelText">Email</string>
+    <string name="edtSignUpEmailHint">Nhập email</string>
+    <string name="edtSignUpShopAddressLabelText">Địa chỉ gửi hàng</string>
+    <string name="edtSignUpShopAddressHint">Nhập địa chỉ shop của bạn</string>
+    <string name="edtSignUpChoseAddressLabelText">Quận/Huyện - Tỉnh/Thành phố</string>
+    <string name="edtSignUpChoseAddressHint">Nhấp để chọn</string>
+    <string name="edtSignUpPhoneLabelText">Số điện thoại</string>
+    <string name="edtSignUpPhoneCodeLabelText">Mã quốc gia</string>
+    <string name="edtSignUpPhoneHint">Nhập SĐT</string>
+    <string name="edtSignUpPasswordLabelText">Mật khẩu</string>
+    <string name="edtSignUpPasswordHint">Nhập mật khẩu</string>
+    <string name="edtSignUpConfirmPasswordLabelText">Xác nhận mật khẩu</string>
+    <string name="edtSignUpConfirmPasswordHint">Nhập lại mật khẩu</string>
+    <string name="edtSignUpNoteTextLabel">Giới thiệu bản thân</string>
+    <string name="edtSignUpNoteHint">Giới thiệu chung về trình độ chuyên môn, kinh nghiệm giảng dạy, các lớp đang dạy...</string>
+    <string name="btnSignUp">ĐĂNG KÝ</string>
+    <string name="txtRegitserSuccessLabel">Đăng ký tài khoản thành công! Bạn có thể đăng nhập để bắt đầu sử dụng!</string>
+    <string name="txtRegitserSuccessMessage">Bạn đã đăng ký tài khoản thành công! Bạn có thể sử dụng tài khoản và mật khẩu vừa đăng ký để đăng nhập vào ứng dụng</string>
+    <string name="txtRegitserPolicyPart1">Với việc đăng ký tài khoản, bạn đã chấp nhận điều khoản sử dụng của chúng tôi</string>
+    <string name="txtRegitserPolicyPart2">điều khoản sử dụng</string>
+    <string name="alertNotAgreePolyci">Xin lỗi, để đăng ký tài khoản bạn phải chấp nhận điều khoản sử dụng</string>
+    <string name="errorEmptyAccount">Tài khoản không được để trống!</string>
+    <string name="errorEmptyCurrentPassword">Mật khẩu hiện tại không được để trống!</string>
+    <string name="errorEmptyPassword">Mật khẩu không được để trống!</string>
+    <string name="errorEmptyNewPassword">Mật khẩu mới không được để trống!</string>
+    <string name="errorEmptyConfirmPassword">Xác nhận mật khẩu không được để trống!</string>
+    <string name="errorPasswordNotMatch">Mật khẩu và xác nhận mật khẩu không khớp!</string>
+    <string name="errorInvalidPassword">Mật khẩu không hợp lệ!</string>
+    <string name="errorEmptyEmail">Email không được để trống!</string>
+    <string name="errorEmptyPhone">Số điện thoại không được để trống!</string>
+    <string name="errorEmptyShopAddress">Địa chỉ shop không được để trống!</string>
+    <string name="errorEmptyChoseAddress">Bạn chưa chọn Quận/Huyện - Tỉnh/Thành phố!</string>
+    <string name="errorEmptyCOD">COD không được để trống!</string>
+
+    <!-- Forget Password Screen Strings-->
+    <string name="edtForgetPassEmailHint">Email</string>
+    <string name="btnGetPassword">LẤY LẠI MẬT KHẨU</string>
+    <string name="alertGetPasswordSuccess">Thao tác thành công! Vui lòng kiểm tra email!</string>
+
+    <!-- Create class-->
+    <string name="createOrderTitle">Tạo đơn hàng</string>
+    <string name="confirmCreateOrder">Bạn có chắc chắn muốn tạo đơn hàng này?</string>
+    <string name="confirmCancelOrder">Bạn có chắc chắn muốn hủy tạo đơn hàng này?</string>
+
+    <string name="edtCreateSenderNameLabel">Tên người gửi</string>
+    <string name="edtCreateSenderNameHint">Nhập tên người gửi</string>
+    <string name="edtCreateReceiverNameLabel">Tên người nhận</string>
+    <string name="edtCreateReceiverNameHint">Nhập tên người nhận</string>
+
+    <string name="edtSearchLocationHint">Tìm kiếm Google Maps</string>
+    <string name="edtCODHint">Nhập số tiền thu hộ bằng VNĐ</string>
+    <string name="edtCODLabelText">Tiền thu hộ</string>
+    <string name="edtGoodHint">Mô tả hàng hoá</string>
+    <string name="edtGoodLabelText">Thông tin</string>
+    <string name="edtGoodSizeHint">Dài x Rộng x Cao</string>
+    <string name="edtGoodSizeLabelText">Kích thước</string>
+    <string name="edtGoodWeightHint">Nhập trọng lượng</string>
+    <string name="edtGoodWeightSizeLabelText">Trọng lượng</string>
+    <string name="edtGoodCostHint">Nhập giá trị hàng (VNĐ)</string>
+    <string name="edtGoodCostSizeLabelText">Giá trị hàng</string>
+    <string name="edtServiceHint">Chose a service</string>
+    <string name="edtServiceLabelText">Dịch vụ</string>
+    <string name="edtPaymentTypeHint">Chose payment type</string>
+    <string name="edtPaymentTypeLabelText">Hình thức thanh toán</string>
+    <string name="edtPackageServiceLabelText">Đóng gói hàng hóa</string>
+    <string name="edtPromotionHint">Nhập mã khuyến mại</string>
+    <string name="edtPromotionLabelText">Mã khuyến mại</string>
+    <string name="edtNoteHint">Các lưu ý khi vận chuyển</string>
+    <string name="edtNoteLabelText">Chú ý</string>
+
+    <string name="errorEmptyClassName">Tên lớp không được để trống!</string>
+    <string name="errorEmptySenderName">Tên người gửi không được để trống!</string>
+    <string name="errorEmptyReceiverName">Tên người nhận không được để trống!</string>
+    <string name="errorEmptyTuitionFee">Học phí không được để trống!</string>
+    <string name="errorEmptyTimeWeek">Bạn chưa tạo thời gian biểu</string>
+    <string name="errorEmptyContact">Số điện thoại liên hệ không được để trống</string>
+    <string name="errorEmptyAddress">Địa chỉ không được để trống</string>
+    <string name="errorEmptyWeight">Trọng lượng hàng không được để trống</string>
+    <string name="errorEmptyLocation">Bạn phải chọn vị trí lớp học của bạn</string>
+    <string name="errorMemberMustMoreZero">Số sinh viên không được để trống và phải lớn hơn 0</string>
+    <string name="txtCreateClassSuccess1">Cám ơn khách hàng đã tin dùng dịch vụ của GNN Express.</string>
+    <string name="txtCreateClassSuccess2">Chúng tôi sẽ nhận hàng chậm nhất trong một giờ. Nếu cần hỗ trợ ngay, quý khách vui lòng gọi số: </string>
+    <string name="txtCreateClassSuccess3">1900 6402</string>
+    <string name="txtLabelDialogChoseDay">Tạo thời gian biểu</string>
+
+    <!-- Detail-->
+    <string name="edtDetailHeaderLabelText">Thông tin đơn hàng</string>
+    <string name="edtDescriptionLabel">Mô tả</string>
+
+
+    <!-- Account-->
+    <string name="accountTitleInfo">Thông tin cá nhân</string>
+    <string name="accountTitleUpdateInfo">Cập nhật thông tin</string>
+    <string name="accountTitleAccount">Họ tên</string>
+    <string name="accountTitleAccountHint">Nhập họ tên</string>
+    <string name="accountTitlePhone">Số điện thoại</string>
+    <string name="accountTitlePhoneHint">Nhập số điện thoại</string>
+    <string name="accountTitleEmail">Hòm thư điện tử</string>
+    <string name="accountTitleEmailHint">Nhập email</string>
+    <string name="accountTitleChangePassword">Đổi mật khẩu</string>
+    <string name="accountCurrentPasswordInfoLabelText">Xác nhận mật khẩu</string>
+    <string name="accountCurrentPasswordLabelText">Mật khẩu hiện tại</string>
+    <string name="accountCurrentPasswordHint">Nhập mật khẩu hiện tại</string>
+    <string name="accountNewPasswordHint">Mật khẩu mới</string>
+    <string name="accountConfirmNewPasswordHint">Nhập lại mật khẩu mới</string>
+    <string name="alertGetInforError">Không thể tải thông tin của bạn! Vui lòng thử lại sau!</string>
+    <string name="alertUpdateInfoSuccess">Thông tin của bạn đã được cập nhật!</string>
+    <string name="alertChangePasswordSuccess">Mật khẩu của bạn đã được cập nhật! </string>
+    <string name="accountCurrentPasswordHintPrefill"></string>
+    <string name="accountConfirmMessage">Bạn muốn cập nhật?</string>
+
+    <string name="not_yet">Chưa có</string>
+    <string name="not_update">Chưa cập nhật</string>
+    <string name="no_user_info">Không lấy được thông tin người dùng! Vui lòng thử lại sau!</string>
+
+    <!-- Chon be-->
+    <string name="chose_baby_title">Chọn bé</string>
+    <string name="babyTitleInfo">Thông tin của trẻ</string>
+    <string name="babyTitleAccount">Họ tên</string>
+    <string name="babyTitleAccountError">Bạn chưa nhập họ tên bé</string>
+    <string name="babyTitleAccountHint">Nhập họ tên bé</string>
+    <string name="babyTitleBirthday">Ngày tháng năm sinh</string>
+    <string name="babyTitleBirthdayError">Bạn chưa chọn năm sinh cho bé</string>
+    <string name="babyTitleHeight">Chiều cao</string>
+    <string name="babyTitleHeightHint">Nhập chiều cao của bé (cm)</string>
+    <string name="babyTitleHeightError">Bạn chưa nhập chiều cao của bé</string>
+    <string name="babyTitleWeight">Cân nặng</string>
+    <string name="babyTitleWeightHint">Nhập cân nặng của bé (kg)</string>
+    <string name="babyTitleWeightError">Bạn chưa nhập cân nặng của bé</string>
+    <string name="babyTitleSex">Giới tính</string>
+    <string name="createBabySuccess">Thông tin của bé đã được tạo!</string>
+    <string name="updateBabySuccess">Thông tin của bé đã được cập nhật!</string>
+    <string name="actionFail">Thao tác không thành công! Vui lòng kiểm tra lại!</string>
+
+    <!-- Setting -->
+    <string name="settingTittle">Thiết lập</string>
+    <string name="settingTurnOnAlert">Bật cảnh báo nhiệt độ</string>
+    <string name="settingAlertTemple">Nhiệt độ cảnh báo</string>
+    <string name="settingAlertRepeatTime">Nhắc lại sau</string>
+    <string name="settingTurnOnVibrateAlert">Rung khi cảnh báo</string>
+    <string name="settingAlertBell">Chuông cảnh báo</string>
+    <string name="settingTimeLoadData">Thời gian tải dữ liệu (data)</string>
+
+    <string name="introTitle">Hướng dẫn</string>
+    <string name="scanDeviceTitle">Chọn thiết bị</string>
+
+    <string-array name="contactActions">
+        <item>Gọi điện</item>
+        <item>Nhắn tin SMS</item>
+    </string-array>
+
+    <string-array name="dayOfWeeksToServer">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+
+    <string-array name="dayOfWeekDisplayDialog">
+        <item>Thứ hai</item>
+        <item>Thứ ba</item>
+        <item>Thứ tư</item>
+        <item>Thứ năm</item>
+        <item>Thứ sáu</item>
+        <item>Thứ bảy</item>
+        <item>Chủ nhật</item>
+    </string-array>
+
+    <string-array name="dayOfWeekDisplay">
+        <item>Hai</item>
+        <item>Ba</item>
+        <item>Tư</item>
+        <item>Năm</item>
+        <item>Sáu</item>
+        <item>Bảy</item>
+        <item>Chủ nhật</item>
+    </string-array>
+
+    <!-- Notifycation-->
+    <string name="contentTitleDefault">GNN Express</string>
+    <string name="contentTextDefault">Chọn để xem chi tiết</string>
+    <string name="contentTitleApprove">Nhận đơn</string>
+
+
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">Không có dữ liệu</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+
+</resources>

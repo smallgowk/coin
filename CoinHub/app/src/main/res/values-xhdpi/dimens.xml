@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- Sliding dimens -->
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    
+    <dimen name="size_icon_menu_item">30px</dimen>
+    
+    <dimen name="size_padding_top_group">17dp</dimen>
+    <dimen name="size_padding_bot_group">2dp</dimen>
+    <dimen name="size_padding_left_group">10dp</dimen>
+    <dimen name="size_padding_top_item">9dp</dimen>
+    <dimen name="size_padding_bot_item">9dp</dimen>
+    <dimen name="size_padding_left_item">14dp</dimen>
+    <dimen name="padding_row_item">5dp</dimen>
+    
+    <!-- Login layout -->
+    <dimen name="height_space_top">15dp</dimen>
+    <dimen name="height_space">50dp</dimen>
+    <dimen name="logo_splash_size">150dp</dimen>
+    <dimen name="logo_login_width">58dp</dimen>
+    <dimen name="logo_login_height">75dp</dimen>
+    <dimen name="slogan_margin_top">55dp</dimen>
+    <dimen name="slogan_text_size">32sp</dimen>
+    <dimen name="margin_register_login">40dp</dimen>
+    
+    <!-- MenuLeft -->
+    <dimen name="menu_margin_leftright">20dp</dimen>
+    <dimen name="menu_margin_topbottom">25dp</dimen>
+    <dimen name="menu_margin_appname_logo">10dp</dimen>
+    <dimen name="menu_margin_listmenu_slogan">24dp</dimen>
+    <dimen name="menu_margin_bottom">15dp</dimen>
+    <dimen name="menu_row_padding_topbottom">15dp</dimen>
+    <dimen name="menu_row_margin">15dp</dimen>
+    <dimen name="menu_row_image_size">20dp</dimen>
+    <dimen name="menu_logo_width">41dp</dimen>
+    <dimen name="menu_logo_height">51dp</dimen>
+    <dimen name="menu_row_text_size">16sp</dimen>
+    <dimen name="menu_text_size_app_name">19sp</dimen>
+    <dimen name="menu_text_size_slogan">14sp</dimen>
+    <dimen name="menu_text_size_ship_money_title">17sp</dimen>
+    <dimen name="menu_text_size_ship_money">19sp</dimen>
+    
+    <!-- Billing Item -->
+    
+    <!-- Billing Detail -->
+    <dimen name="billing_detail_margin_leftright">20dp</dimen>
+    <dimen name="billing_detail_margin_topbottom">10dp</dimen>
+    <dimen name="billing_detail_text_size_1">13sp</dimen>
+    <dimen name="billing_detail_text_size_2">15sp</dimen>
+    <dimen name="billing_detail_text_size_3">17sp</dimen>
+    <dimen name="billing_detail_text_size_4">12sp</dimen>
+    <dimen name="billing_detail_padding_row_topdown">5dp</dimen>
+    
+    <!-- NotifyModel -->
+     <dimen name="inbox_margin_leftright">20dp</dimen>
+     <dimen name="inbox_margin_topdown">20dp</dimen>
+     <dimen name="inbox_row_height">95dp</dimen>
+     <dimen name="inbox_width_delete_icon">20dp</dimen>
+     <dimen name="inbox_height_delete_icon">26dp</dimen>
+     
+     <!-- Create bill page 1 -->
+     <dimen name="create_bill_page1_margin_leftright">10dp</dimen>
+     <dimen name="create_bill_page1_row_padding_top_down">10dp</dimen>
+     
+     <!-- Shop Billing Detail -->
+     <dimen name="shop_billing_detail_margin_leftright">10dp</dimen>
+
+</resources>

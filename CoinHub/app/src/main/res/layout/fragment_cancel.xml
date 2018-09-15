@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f8e9"
+    android:orientation="vertical">
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.phanduy.widgets.AmazingListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/margin_item"
+            android:paddingBottom="@dimen/deviderHeight"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/drawable_transparent"
+            android:dividerHeight="@dimen/deviderHeight" >
+        </com.phanduy.widgets.AmazingListView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <com.phanduy.view.custom.TextViewWithFont
+            android:id="@+id/errorAlert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_edt"
+            android:layout_marginRight="@dimen/margin_edt"
+            android:gravity="center_horizontal"
+            android:text="@string/text_no_network"
+            android:textColor="@color/black54"
+            android:textSize="16sp"
+            android:visibility="visible"
+            font:type="6" />
+
+        <Button
+            android:id="@+id/refreshButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:filterTouchesWhenObscured="true"
+            android:text="@string/labelRetry"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/layout_header" >
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Huỷ"
+        android:background="@drawable/drawable_transparent_press"
+        android:textColor="@color/white"
+        android:onClick="onClickBack"
+        android:textAllCaps="false"
+        />
+    <RelativeLayout
+        android:id="@+id/buttonHeaderRight"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:onClick="onClickHeaderRight"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
+        android:background="@drawable/drawable_transparent_press_circle"
+        >
+
+        <ImageView
+            android:id="@+id/icon_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_next_icon"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter"
+            android:tint="@color/white" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtTitleHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Name"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical"
+        android:visibility="visible"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        />
+
+
+</RelativeLayout>

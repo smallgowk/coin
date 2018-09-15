@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layoutHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            layout="@layout/layout_header_second"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/searchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutHeader"
+        android:paddingLeft="@dimen/margin_border"
+        android:paddingRight="@dimen/margin_border"
+        android:paddingTop="@dimen/margin_item"
+        android:paddingBottom="@dimen/margin_item"
+        android:background="@color/gray_less"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:background="@drawable/drawable_border_bg_edittext"
+            >
+
+            <LinearLayout
+                android:id="@+id/layoutSearch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:paddingTop="@dimen/margin_item"
+                android:paddingBottom="@dimen/margin_item"
+                android:paddingLeft="@dimen/margin_border"
+                android:paddingRight="@dimen/margin_border"
+                android:visibility="gone"
+                >
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:background="@null"
+                    android:src="@drawable/icon_search"
+                    />
+                <EditText
+                    android:id="@+id/edtSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Tìm kiếm"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="@dimen/margin_item"
+                    android:background="@null"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layoutSearchFake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:background="@null"
+                    android:src="@drawable/icon_search"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_item"
+                    android:text="Tìm kiếm"
+                    android:textSize="13sp"
+                    />
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listContact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchLayout"
+        />
+    <RelativeLayout
+        android:id="@+id/layoutCall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#44000000"
+        android:visibility="gone"
+        >
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:onClick="onCallPrivate"
+                android:padding="12dp">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/call_icon"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/main_green"
+                    android:text="Gọi cá nhân"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="16dp"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/main_green"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:onClick="onCallHost"
+                android:padding="12dp">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/call_icon"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/main_green"
+                    android:text="Gọi qua tổng đài"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="16dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

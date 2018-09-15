@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutHeader"
+        android:background="@drawable/drawable_account"
+        >
+
+        <RelativeLayout
+            android:id="@+id/buttonBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:onClick="onClickBack"
+            android:layout_margin="4dp"
+            android:background="@drawable/drawable_transparent_press_circle"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_back_white_24dp"
+                android:layout_centerInParent="true"
+                android:scaleType="fitCenter"
+                android:tint="@color/white" />
+
+        </RelativeLayout>
+
+        <com.phanduy.view.custom.TextViewWithFont
+            android:id="@+id/txtTitleHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/introTitle"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        app:ci_animator="@animator/indicator_animator"
+        app:ci_animator_reverse="@animator/indicator_animator_reverse"
+        app:ci_drawable="@drawable/green_radius"
+        app:ci_drawable_unselected="@drawable/black_radius"
+        app:ci_height="6dp"
+        app:ci_width="6dp"
+        app:ci_margin="4dp"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layoutHeader"
+        android:layout_above="@+id/indicator"
+        >
+
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

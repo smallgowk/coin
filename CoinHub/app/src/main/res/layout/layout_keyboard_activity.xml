@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layoutHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            layout="@layout/layout_header_second"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        >
+
+        <ImageButton
+            android:id="@+id/btnClear"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/delete_icon"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            />
+
+        <EditText
+            android:id="@+id/edtKeyword"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:background="@null"
+            android:layout_centerVertical="true"
+            android:cursorVisible="false"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:lines="1"
+            android:textColor="@color/black"
+            />
+    </RelativeLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--&gt;-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--&gt;-->
+            <!--<Button-->
+                <!--android:layout_width="@dimen/rcu_number_size"-->
+                <!--android:layout_height="@dimen/rcu_number_size"-->
+                <!--android:layout_margin="@dimen/rcu_number_margin"-->
+                <!--android:background="@drawable/btn_rcu_number"-->
+                <!--android:textAppearance="@style/TextKeyBoardStyle" />-->
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:alignmentMode="alignBounds"
+        android:horizontalSpacing="20dp"
+        android:verticalSpacing="20dp"
+        android:columnCount="3"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="@dimen/rcu_number_size"
+            android:layout_height="@dimen/rcu_number_size"
+            android:layout_margin="@dimen/rcu_number_margin"
+            android:background="@drawable/btn_rcu_number"
+            android:text="1"
+            style="@style/TextKeyBoardStyle" />
+
+        <Button
+            android:layout_width="@dimen/rcu_number_size"
+            android:layout_height="@dimen/rcu_number_size"
+            android:background="@drawable/btn_rcu_number"
+            android:layout_margin="@dimen/rcu_number_margin"
+            android:text="2"
+            style="@style/TextKeyBoardStyle"  />
+
+        <Button
+            android:layout_width="@dimen/rcu_number_size"
+            android:layout_height="@dimen/rcu_number_size"
+            android:background="@drawable/btn_rcu_number"
+            android:layout_margin="@dimen/rcu_number_margin"
+            android:text="3"
+            style="@style/TextKeyBoardStyle" />
+
+        <Button
+            android:layout_width="@dimen/rcu_number_size"
+            android:layout_height="@dimen/rcu_number_size"
+            android:background="@drawable/btn_rcu_number"
+            android:layout_margin="@dimen/rcu_number_margin"
+            android:text="4"
+            android:textAppearance="@style/TextKeyBoardStyle" />
+
+        <Button
+            android:layout_width="@dimen/rcu_number_size"
+            android:layout_height="@dimen/rcu_number_size"
+            android:background="@drawable/btn_rcu_number"
+            android:layout_margin="@dimen/rcu_number_margin"
+            android:text="5"
+            style="@style/TextKeyBoardStyle"  />
+
+        <Button
+            android:layout_width="@dimen/rcu_number_size"
+            android:layout_height="@dimen/rcu_number_size"
+            android:background="@drawable/btn_rcu_number"
+            android:layout_margin="@dimen/rcu_number_margin"
+            android:text="6"
+            android:textAppearance="@style/TextKeyBoardStyle" />
+
+        <Button
+            android:layout_width="@dimen/rcu_number_size"
+            android:layout_height="@dimen/rcu_number_size"
+            android:background="@drawable/btn_rcu_number"
+            android:layout_margin="@dimen/rcu_number_margin"
+            android:text="7"
+            style="@style/TextKeyBoardStyle" />
+
+        <Button
+            android:layout_width="@dimen/rcu_number_size"
+            android:layout_height="@dimen/rcu_number_size"
+            android:background="@drawable/btn_rcu_number"
+            android:layout_margin="@dimen/rcu_number_margin"
+            android:text="8"
+            style="@style/TextKeyBoardStyle" />
+
+        <Button
+            android:layout_width="@dimen/rcu_number_size"
+            android:layout_height="@dimen/rcu_number_size"
+            android:background="@drawable/btn_rcu_number"
+            android:layout_margin="@dimen/rcu_number_margin"
+            android:text="9"
+            style="@style/TextKeyBoardStyle" />
+        <Button
+            android:layout_width="@dimen/rcu_number_size"
+            android:layout_height="@dimen/rcu_number_size"
+            android:background="@drawable/btn_rcu_number"
+            android:layout_margin="@dimen/rcu_number_margin"
+            android:text="*"
+            style="@style/TextKeyBoardStyle" />
+
+        <Button
+            android:layout_width="@dimen/rcu_number_size"
+            android:layout_height="@dimen/rcu_number_size"
+            android:background="@drawable/btn_rcu_number"
+            android:layout_margin="@dimen/rcu_number_margin"
+            android:text="0"
+            style="@style/TextKeyBoardStyle" />
+
+        <Button
+            android:layout_width="@dimen/rcu_number_size"
+            android:layout_height="@dimen/rcu_number_size"
+            android:background="@drawable/btn_rcu_number"
+            android:layout_margin="@dimen/rcu_number_margin"
+            android:text="#"
+            style="@style/TextKeyBoardStyle" />
+
+        <Button
+            android:layout_width="@dimen/rcu_number_size"
+            android:layout_height="@dimen/rcu_number_size"
+            android:layout_margin="@dimen/rcu_number_margin"
+            android:layout_columnSpan="3"
+            android:layout_gravity="center"
+            android:background="@drawable/call_db_icon"
+            style="@style/TextKeyBoardStyle" />
+
+
+    </GridLayout>
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/margin_border"
+        android:paddingRight="@dimen/margin_border"
+        android:paddingTop="@dimen/margin_item"
+        android:paddingBottom="@dimen/margin_item"
+        android:background="@color/gray_less"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:background="@drawable/drawable_border_bg_edittext"
+            >
+
+            <LinearLayout
+                android:id="@+id/layoutSearch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:paddingTop="@dimen/margin_item"
+                android:paddingBottom="@dimen/margin_item"
+                android:paddingLeft="@dimen/margin_border"
+                android:paddingRight="@dimen/margin_border"
+                android:visibility="gone"
+                >
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:background="@null"
+                    android:src="@drawable/icon_search"
+                    />
+                <EditText
+                    android:id="@+id/edtSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Tìm kiếm"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="@dimen/margin_item"
+                    android:background="@null"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layoutSearchFake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                >
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:background="@null"
+                    android:src="@drawable/icon_search"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_item"
+                    android:text="Tìm kiếm"
+                    android:textSize="13sp"
+                    />
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listContact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layoutHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            layout="@layout/layout_header_third"
+            />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_edt"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black87"
+                android:text="Thời gian bắt đầu"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_item"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/drawable_border_bg_edittext"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:layout_marginRight="16dp"
+                    android:gravity="center_vertical"
+                    >
+
+                    <com.phanduy.widgets.DatePicker
+                        android:id="@+id/startDate"
+                        style="@style/DatePickerStyle"
+                        android:layout_marginRight="8dp"
+                        />
+                    <ImageView
+                        android:id="@+id/iconStartDate"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_date_range_black_24dp"
+                        android:layout_centerVertical="true"
+                        android:tint="@color/gray"
+                        android:layout_alignParentRight="true"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/drawable_border_bg_edittext"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:gravity="center_vertical"
+                    >
+
+                    <com.phanduy.widgets.TimePicker
+                        android:id="@+id/startTime"
+                        style="@style/DatePickerStyle"
+                        android:layout_marginRight="8dp"
+                        />
+                    <ImageView
+                        android:id="@+id/iconStartTime"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/add_time_icon"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black87"
+                android:text="Thời gian kết thúc"
+                android:layout_marginTop="@dimen/margin_edt"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_item"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/drawable_border_bg_edittext"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="16dp"
+                    >
+
+                    <com.phanduy.widgets.DatePicker
+                        android:id="@+id/endDate"
+                        style="@style/DatePickerStyle"
+                        android:layout_marginRight="8dp"
+                        />
+                    <ImageView
+                        android:id="@+id/iconEndDate"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:tint="@color/gray"
+                        android:src="@drawable/ic_date_range_black_24dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/drawable_border_bg_edittext"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:gravity="center_vertical"
+                    >
+
+                    <com.phanduy.widgets.TimePicker
+                        android:id="@+id/endTime"
+                        style="@style/DatePickerStyle"
+                        android:layout_marginRight="8dp"
+                        />
+                    <ImageView
+                        android:id="@+id/iconEndTime"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/add_time_icon"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black87"
+                android:text="Thành viên"
+                android:layout_marginTop="@dimen/margin_edt"
+                />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/listMember"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_item"
+                android:nestedScrollingEnabled="false" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/margin_edt"
+                android:background="@drawable/drawable_border_bg_edittext"
+                android:gravity="center_vertical"
+                android:padding="12dp"
+                >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/add_people_icon"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black87"
+                    android:text="Thêm đồng nghiệp"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/margin_edt"
+                android:background="@drawable/drawable_border_bg_edittext"
+                android:gravity="center_vertical"
+                android:padding="12dp"
+                >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/add_people_icon"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black87"
+                    android:text="Thêm khách hàng"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/margin_edt"
+                android:background="@drawable/drawable_border_bg_edittext"
+                android:gravity="center_vertical"
+                android:padding="12dp"
+                >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/add_people_icon"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black87"
+                    android:text="Thêm thành viên trực tiếp"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/margin_edt"
+                android:background="@drawable/drawable_border_bg_edittext"
+                android:gravity="center_vertical"
+                android:padding="12dp"
+                >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/info_icon"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black87"
+                    android:text="Xem hướng dẫn"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

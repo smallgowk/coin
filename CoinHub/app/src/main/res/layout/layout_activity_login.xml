@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_green"
+    android:fitsSystemWindows="true">
+
+
+    <RelativeLayout
+        android:id="@+id/layoutInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/layoutLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/spaceTop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/height_space_top"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="187dp"
+                    android:layout_height="85dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/slogan_margin_top"
+                    android:contentDescription="@string/APP_NAME"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/logo" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_space" />
+
+                <LinearLayout
+                    android:id="@+id/layoutControl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/login_horizal_margin"
+                    android:paddingRight="@dimen/login_horizal_margin"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/edtCompanyPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="38dp"
+                        android:background="@drawable/drawable_border_white"
+                        android:paddingLeft="@dimen/margin_item"
+                        android:paddingRight="@dimen/margin_item"
+                        android:hint="Số công ty"
+                        android:maxLength="20"
+                        android:inputType="phone"
+                        />
+
+                    <!--<EditText-->
+                        <!--android:id="@+id/edtPrivatePhone"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="38dp"-->
+                        <!--android:background="@drawable/drawable_border_white"-->
+                        <!--android:layout_marginTop="@dimen/login_vertical_margin"-->
+                        <!--android:paddingLeft="@dimen/margin_item"-->
+                        <!--android:paddingRight="@dimen/margin_item"-->
+                        <!--android:hint="Số máy lẻ"-->
+                        <!--android:inputType="phone"-->
+                        <!--/>-->
+                    <EditText
+                        android:id="@+id/edtPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="38dp"
+                        android:background="@drawable/drawable_border_white"
+                        android:layout_marginTop="@dimen/login_vertical_margin"
+                        android:paddingLeft="@dimen/margin_item"
+                        android:paddingRight="@dimen/margin_item"
+                        android:maxLength="100"
+                        android:hint="Mật khẩu"
+                        android:inputType="textPassword"
+                        />
+
+
+                    <Button
+                        android:id="@+id/buttonLogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="38dp"
+                        android:layout_marginTop="@dimen/login_vertical_margin"
+                        android:background="@drawable/drawable_button_login"
+                        android:onClick="onClickBtnLogin"
+                        android:text="@string/btnLogin"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="@color/white">
+
+                    </Button>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutLoading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layoutHeader"
+        android:background="#44000000"
+        android:visibility="gone"
+        >
+
+        <com.gc.materialdesign.views.ProgressBarCircularIndeterminate
+            android:id="@+id/progressBarCircularIndeterminate"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutError"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffffff"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="#ffffffff"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/APP_NAME"
+                android:src="@drawable/no_conection" />
+
+            <TextView
+                android:id="@+id/textViewAlert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_horizontal"
+                android:text="@string/text_no_network"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

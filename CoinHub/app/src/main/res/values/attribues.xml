@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="font">
+        <attr name="name" format="string" >
+        </attr>
+        <attr name="type" format="integer" >
+        </attr>
+        <attr name="size" format="integer" >
+        </attr>
+    </declare-styleable>
+
+</resources>

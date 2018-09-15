@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BTC Balance: "
+                        android:textColor="@color/orange_light" />
+
+                    <TextView
+                        android:id="@+id/txtTotalBalanceBTC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="USD Balance: "
+                        android:textColor="@color/orange_light" />
+
+                    <TextView
+                        android:id="@+id/txtTotalBalanceUSD"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="VND Balance: "
+                        android:textColor="@color/orange_light" />
+
+                    <TextView
+                        android:id="@+id/txtTotalBalanceVND"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/orange_light"
+                ></LinearLayout>
+
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:textSize="18sp"-->
+            <!--android:text="List coin:"-->
+            <!--android:textStyle="bold"-->
+            <!--/>-->
+
+            <!--<com.phanduy.widgets.SwipeListView-->
+                <!--android:id="@+id/listView"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:cacheColorHint="#00000000"-->
+                <!--android:background="@color/black38"-->
+                <!--android:divider="@color/white15"-->
+                <!--android:dividerHeight="2px"-->
+                <!--android:listSelector="#00000000"-->
+                <!--swipe:swipeBackView="@+id/back"-->
+                <!--swipe:swipeCloseAllItemsWhenMoveList="true"-->
+                <!--swipe:swipeFrontView="@+id/front"-->
+                <!--swipe:swipeMode="both" />-->
+
+            <!--<android.support.v4.widget.SwipeRefreshLayout-->
+                <!--android:id="@+id/swipeContainer"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:background="@color/black38"-->
+                <!--&gt;-->
+
+
+
+            <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black38"
+                android:cacheColorHint="#00000000"
+                android:divider="@color/white15"
+                android:dividerHeight="2px"
+                android:listSelector="#00000000" />
+
+
+        </LinearLayout>
+
+        <com.gc.materialdesign.views.ButtonFloat
+            android:id="@+id/btnAddCoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="16dp"
+            materialdesign:iconDrawable="@drawable/ic_add_white_24dp"
+
+            ></com.gc.materialdesign.views.ButtonFloat>
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/subFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+</FrameLayout>
+
